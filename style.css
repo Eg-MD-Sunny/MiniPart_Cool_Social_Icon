@@ -1,0 +1,101 @@
+*{margin:0;padding:0;}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color:#eee;
+}
+#wrapper{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
+#wrapper .social-btn{
+    display:inline-block;
+    width:60px;
+    height:60px;
+    margin-left:30px;
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:500;
+    color:#fff;
+    border:none;
+    border-radius:50%;
+    cursor:pointer;
+    transform:translate3d(0,0,0);
+}
+#wrapper .row{
+    display:block;
+    margin-bottom:35px;
+}
+#wrapper .facebook {
+    background-color: #3a5795;
+    box-shadow: 0 0 0 0 #e7e7e7, 0 0 0 0 rgba(90, 153, 212, 0.7);
+}
+#wrapper .twitter {
+    background-color: #00acee;
+    box-shadow: 0 0 0 0 #e7e7e7, 0 0 0 0 rgba(0, 172, 238, 0.57);
+}
+#wrapper .gplus {
+    background-color: #dd4b39;
+    box-shadow: 0 0 0 0 #e7e7e7, 0 0 0 0 rgba(221, 75, 57, 0.65);
+}
+#wrapper .linkedin {
+    background-color: #0e76a8;
+    box-shadow: 0 0 0 0 #e7e7e7, 0 0 0 0 rgba(14, 118, 168, 0.69);
+}
+
+
+#wrapper .pintrest {
+    background-color: #bd081c;
+    box-shadow: 0 0 0 0 #e7e7e7, 0 0 0 0 rgba(189, 8, 28, 0.71);
+}
+#wrapper .github {
+    background-color: #323132;
+    box-shadow: 0 0 0 0 #e7e7e7, 0 0 0 0 rgba(50, 49, 49, 0.62);
+}
+#wrapper .tumblr {
+    background-color: #36465d;
+    box-shadow: 0 0 0 0 #e7e7e7, 0 0 0 0 rgba(54, 70, 93, 0.68);
+}
+#wrapper .reddit {
+    background-color: #ff4500;
+    box-shadow: 0 0 0 0 #e7e7e7, 0 0 0 0 rgba(255, 69, 0, 0.69);
+}
+#wrapper .social-btn i{
+    line-height:3;
+}
+#wrapper .social-btn:hover{
+/*
+    animation-name: pulse;
+    transition-delay: 5s;
+    transition-timing-function:cubic-bezier(0.3, -0.3, 0.7, 1.3);
+    animation-iteration-count: infinite;
+*/
+/*    animation:pulse 1.5s cubic-bezier(0.55, 0.32, 0, 1.17) infinite; */
+    animation:pulse .7s cubic-bezier(0.45,0,0,0) infinite; 
+}
+@-moz-keyframes pulse {
+    to {
+        box-shadow: 0 0 0 5px transparent, 0 0 0 22px #eee;
+    }
+}
+@-webkit-keyframes pulse {
+    to {
+        box-shadow: 0 0 0 5px transparent, 0 0 0 22px #eee;
+    }
+}
+@keyframes pulse {
+    to {
+        box-shadow: 0 0 0 5px transparent, 0 0 0 22px #eee;
+    }
+}
+
+
+
+
+
+
+
+
+
